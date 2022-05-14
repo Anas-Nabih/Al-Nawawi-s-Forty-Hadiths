@@ -25,12 +25,12 @@ class HomeTopBart extends StatelessWidget {
                 SizedBox(height: 5.h),
                 Text(
                   "الأربعين النووية",
-                  style: TextStyle(fontSize: 14.sp,fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 16.sp,color: MColors.yellowColor,fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 1.h),
                 Text("لحفظ وسماع الاحاديث النبوية",
 
-                  style: TextStyle(color: MColors .primaryColor,fontSize: 14.sp,fontWeight: FontWeight.bold),),
+                  style: TextStyle(color: MColors .primaryColor,fontSize: 15.sp,fontWeight: FontWeight.bold),),
               ],
             ),
           ),

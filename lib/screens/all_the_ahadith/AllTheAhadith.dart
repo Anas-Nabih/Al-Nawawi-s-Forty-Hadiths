@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sizer/sizer.dart';
 
+import '../hadith_home.dart';
+
 
 class AllTheAhadith extends StatefulWidget {
   const AllTheAhadith({Key? key}) : super(key: key);
@@ -79,7 +81,7 @@ class _AllTheAhadithState extends State<AllTheAhadith> {
                   ),
                   itemCount: Hadith.ahadithList.length,
                   itemBuilder: (context, index)=>GestureDetector(
-                    onTap: ()=>Navigator.push(context, CupertinoPageRoute(builder: (context) => HadithScreen(hadith: Hadith.ahadithList[index]),)),
+                    onTap: ()=>Navigator.push(context, CupertinoPageRoute(builder: (context) => HomeHadith(hadith: Hadith.ahadithList[index]),)),
                       child: HadithCard(index: index,))),
             ),
           ),

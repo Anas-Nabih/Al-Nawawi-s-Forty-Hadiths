@@ -45,4 +45,7 @@ class HadithScreen extends StatelessWidget {
       ),
     );
   }
+
+
+ 
 }

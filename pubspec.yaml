@@ -36,6 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   sizer: ^2.0.15
   flutter_svg: ^1.0.3
+  share: ^2.0.4
+  audioplayer:
+  audioplayer_web:
+  audioplayers:
 
 dev_dependencies:
   flutter_test:
